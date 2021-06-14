@@ -1,0 +1,7 @@
+actor: UnitTester
+modules:
+  enabled:
+    - \Helper\Unit
+    - Asserts
+    - Laravel5:
+        part: ORM
